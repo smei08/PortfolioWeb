@@ -5,7 +5,9 @@
 body {
     display: flex;
     height: 100vh;
+    font-family: "Bebas Neue", sans-serif;
 }
+
 /* side bar & date */
 .line-divider {
     border-left: 2px solid black;
@@ -18,12 +20,26 @@ body {
     transform: rotate(180deg);
 }
 
-
+/* description */
+#description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top:15%;
+}
+#description h1 {
+    font-size: xx-large;
+    padding-bottom: 15px;
+}
+#description p {
+    font-size: larger;
+}
 
 /* navbar */
 #navbar {
     font-size: 80px;
-    font-family: "Bebas Neue", sans-serif;
+    
     font-weight: 400;
     font-style: normal;
     margin: auto;
