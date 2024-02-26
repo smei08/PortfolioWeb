@@ -26,3 +26,18 @@ body {
     margin: 100px 0 0 65px;
     transform: rotate(180deg);
 }
+
+/* introduction */
+#intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.hello {
+    font-size: 100px;
+}
+.quote {
+    font-size: 20px;
+    line-height: 1.5;
+}
