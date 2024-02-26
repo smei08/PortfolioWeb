@@ -7,6 +7,8 @@ body {
     flex-direction: row; 
     height: 100vh;
     font-family: "Bebas Neue", sans-serif;
+    background-color: black;
+    color: gray;
 }
 
 /* side bar & date */
@@ -15,9 +17,10 @@ body {
     margin: 100px 0 0 65px;
     transform: rotate(180deg);
     text-decoration: none;
+    color: gray;
 }
 .line-divider {
-    border-left: 2px solid black;
+    border-left: 2px solid gray;
     height: 60%;
     margin: 50px 0 0 70px;
 }
