@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: row; 
+    height: 100vh;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+/* side bar & date */
+.home  {
+    writing-mode: vertical-lr; 
+    margin: 100px 0 0 65px;
+    transform: rotate(180deg);
+    text-decoration: none;
+}
+.line-divider {
+    border-left: 2px solid black;
+    height: 60%;
+    margin: 50px 0 0 70px;
+}
+.date {
+    writing-mode: vertical-lr; 
+    margin: 100px 0 0 65px;
+    transform: rotate(180deg);
+}
