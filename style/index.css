@@ -6,7 +6,21 @@ body {
     display: flex;
     height: 100vh;
 }
+/* side bar & date */
+.line-divider {
+    border-left: 2px solid black;
+    height: 60%;
+    margin: 100px 0 0 70px;
+}
+.date {
+    writing-mode: vertical-lr; 
+    margin: 210px 0 0 65px;
+    transform: rotate(180deg);
+}
 
+
+
+/* navbar */
 #navbar {
     font-size: 80px;
     font-family: "Bebas Neue", sans-serif;
