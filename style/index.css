@@ -53,4 +53,5 @@ body {
 #navbar a {
     text-decoration: none;
     align-self: flex-start;
+    color: black;
 }
