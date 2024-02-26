@@ -41,3 +41,10 @@ body {
     font-size: 20px;
     line-height: 1.5;
 }
+.fa-solid {
+    padding: 15px 15px 0 0;
+}
+.fa-solid, .fa-brands {
+    font-size: 25px;
+    color: gray;
+}
