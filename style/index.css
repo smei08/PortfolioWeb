@@ -15,7 +15,7 @@ body {
 }
 .date {
     writing-mode: vertical-lr; 
-    margin: 210px 0 0 65px;
+    margin: 100px 0 0 65px;
     transform: rotate(180deg);
 }
 
@@ -24,12 +24,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 15%;
-    padding-top: 15%;
+    margin: auto;
 }
 #description h1 {
     font-size: 80px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     /* font-family: "Parisienne", cursive; */
 }
 #description p {
@@ -42,7 +41,7 @@ body {
     font-weight: 900;
     font-style: normal;
     margin: auto;
-    /* padding-left: 10%; */
+
 }
 #navbar nav {
     display: flex;
