@@ -52,10 +52,15 @@ body {
 #navbar a {
     text-decoration: none;
     align-self: flex-start;
-
+    /*text outline*/
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
     -webkit-text-fill-color: white; 
 
     font-family: "Montserrat", sans-serif;
+}
+
+#navbar a::before {
+    content: attr(data-text);
+    
 }
