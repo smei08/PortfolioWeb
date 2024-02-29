@@ -37,30 +37,48 @@ body {
 
 /* navbar */
 #navbar {
-    font-size: 100px;
-    font-weight: 900;
-    font-style: normal;
-    margin: auto;
-
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
 }
-#navbar nav {
+ul {
+    position: relative;
     display: flex;
     flex-direction: column;
-
+    gap: 30px;
 }
 
-#navbar a {
-    text-decoration: none;
-    align-self: flex-start;
-    /*text outline*/
-    -webkit-text-stroke-width: .5px;
-    -webkit-text-stroke-color: black;
-    -webkit-text-fill-color: white; 
+ul li {
+    position: relative;
+    list-style: none;
+}
 
+ul li a {
+    font-size: 100px;
+    font-weight: 900;
     font-family: "Montserrat", sans-serif;
+    letter-spacing: 2px;
+    line-height: 1em;
+    text-decoration: none;
+    /*text outline*/
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(111, 111, 111, 0.5);
 }
 
-#navbar a::before {
+ul li a::before {
     content: attr(data-text);
-    
+    position: absolute;
+    color: var(--tc);
+    width: 0;
+    overflow: hidden;
+    transition: 2s;
+    /* border-left: 8px solid var(--tc); */
+    -webkit-text-stroke: 1px var(--tc);
+    white-space: nowrap;
+}
+
+ul li a:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 2px var(--tc));
+    overflow: hidden;
 }
