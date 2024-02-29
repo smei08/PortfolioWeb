@@ -71,7 +71,7 @@ ul li a::before {
     color: var(--tc);
     width: 0;
     overflow: hidden;
-    transition: 2s;
+    transition: 1s;
     /* border-left: 8px solid var(--tc); */
     -webkit-text-stroke: 1px var(--tc);
     white-space: nowrap;
