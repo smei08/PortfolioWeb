@@ -1,0 +1,30 @@
+.hero-container {
+  border: 1px solid brown;
+  height: 500px;
+  display: flex;
+  padding: 32px;
+}
+
+.left,
+.right {
+  writing-mode: vertical-rl;
+  text-align: center;
+  letter-spacing: 32px;
+}
+.left {
+  border-right: 0.5px solid brown;
+  padding-right: 64px;
+}
+.right {
+  border-left: 0.5px solid brown;
+  padding-left: 64px;
+}
+.center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.intro {
+  padding-top: 150px;
+}
