@@ -1,12 +1,13 @@
 import { useState } from "react";
 
 import "./App.css";
+import CalenderHeader from "./sections/CalendarHeader/CalendarHeader";
 
 function App() {
   return (
-    <>
-      <h1>portfolio</h1>
-    </>
+    <div className="app-container">
+      <CalenderHeader />
+    </div>
   );
 }
 

@@ -1,0 +1,7 @@
+.calender-header-container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
