@@ -1,7 +1,22 @@
 .calender-header-container {
-  border: 1px solid red;
+  position: relative;
+  width: 100%;
+}
+
+.knot-border {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.header-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 32px;
+  padding: 0 100px;
 }
