@@ -5,6 +5,7 @@ import About from "../../About/About";
 import HeroHeader from "../HeroHeader/HeroHeader";
 import Skills from "../../Skills/Skills";
 import Projects from "../../Projects/Projects";
+import ContactFooter from "../../ContactFooter/ContactFooter";
 
 export default function Hero() {
   return (
@@ -31,6 +32,7 @@ export default function Hero() {
           <Skills />
           <Projects />
         </div>
+        <ContactFooter />
       </div>
     </div>
   );
