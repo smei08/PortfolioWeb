@@ -3,6 +3,8 @@ import "./hero.css";
 import CalendarDate from "../../../components/Date/CalendarDate";
 import About from "../../About/About";
 import HeroHeader from "../HeroHeader/HeroHeader";
+import Skills from "../../Skills/Skills";
+import Projects from "../../Projects/Projects";
 
 export default function Hero() {
   return (
@@ -23,6 +25,13 @@ export default function Hero() {
         <h1 className="right">吉福運緣 </h1>
       </div>
       <HeroHeader />
+      <div className="hero-body">
+        <About />
+        <div className="skills-projects">
+          <Skills />
+          <Projects />
+        </div>
+      </div>
     </div>
   );
 }

@@ -28,3 +28,12 @@
 .intro {
   padding-top: 150px;
 }
+.hero-body {
+  border: 1px solid red;
+}
+.skills-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
