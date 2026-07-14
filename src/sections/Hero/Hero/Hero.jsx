@@ -1,6 +1,8 @@
 import React from "react";
 import "./hero.css";
-import CalendarDate from "../../components/Date/CalendarDate";
+import CalendarDate from "../../../components/Date/CalendarDate";
+import About from "../../About/About";
+import HeroHeader from "../HeroHeader/HeroHeader";
 
 export default function Hero() {
   return (
@@ -20,14 +22,7 @@ export default function Hero() {
         </div>
         <h1 className="right">吉福運緣 </h1>
       </div>
-      <div className="hero-header">
-        <div className="chinese-date">
-          <CalendarDate show="lunar" />
-          <CalendarDate show="lunar-day" />
-        </div>
-        <img src="../../../flower.png" />
-        <CalendarDate show="day" />
-      </div>
+      <HeroHeader />
     </div>
   );
 }
