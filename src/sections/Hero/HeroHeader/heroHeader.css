@@ -2,7 +2,6 @@ img {
   width: 70px;
 }
 .hero-header {
-  border: 1px solid orange;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

@@ -26,9 +26,11 @@ export default function CalendarDate({ show }) {
   return (
     <div className="date-container">
       {show === "year" && <h1 className="year">{year}</h1>}
-      {show === "lunar" && <h1>{lunar.getDayInChinese()}</h1>}
-      {show === "lunar-day" && <h1>{lunarDay[lunarDay.length - 1]}</h1>}
-      {show === "day" && <h1>{day}</h1>}
+      {show === "lunar" && <h1 className="lunar">{lunar.getDayInChinese()}</h1>}
+      {show === "lunar-day" && (
+        <h1 className="lunar-day">{lunarDay[lunarDay.length - 1]}</h1>
+      )}
+      {show === "day" && <h1 className="day">{day}</h1>}
     </div>
   );
 }

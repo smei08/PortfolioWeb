@@ -6,6 +6,7 @@ import HeroHeader from "../HeroHeader/HeroHeader";
 import Skills from "../../Skills/Skills";
 import Projects from "../../Projects/Projects";
 import ContactFooter from "../../ContactFooter/ContactFooter";
+import corner from "../../../assets/corner.svg";
 
 export default function Hero() {
   return (
@@ -28,12 +29,19 @@ export default function Hero() {
       </div>
       <HeroHeader />
       <div className="hero-body">
-        <About />
-        <div className="skills-projects">
-          <Skills />
-          <Projects />
+        <div className="frame">
+          <img src={corner} className="corner tl" alt="" />
+          <img src={corner} className="corner tr" alt="" />
+          <img src={corner} className="corner bl" alt="" />
+          <img src={corner} className="corner br" alt="" />
+
+          <About />
+          <div className="skills-projects">
+            <Skills />
+            <Projects />
+          </div>
+          <ContactFooter />
         </div>
-        <ContactFooter />
       </div>
     </div>
   );

@@ -68,3 +68,35 @@
   justify-content: space-evenly;
   align-items: center;
 }
+.frame {
+  position: relative;
+  width: 100%;
+  padding: 16px 0 0 0;
+}
+
+.corner {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+}
+
+.corner.tl {
+  top: 0;
+  left: 0;
+  transform: rotate(90deg);
+}
+.corner.tr {
+  top: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+.corner.bl {
+  bottom: 0;
+  left: 0;
+  transform: rotate(360deg);
+}
+.corner.br {
+  bottom: 0;
+  right: 0;
+  transform: rotate(270deg);
+}
