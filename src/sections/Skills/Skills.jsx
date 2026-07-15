@@ -1,8 +1,11 @@
 import React from "react";
 
 export default function Skills() {
+  const style = {
+    padding: "0 40px",
+  };
   return (
-    <div>
+    <div style={style} className="skills">
       <h1>Skills section</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

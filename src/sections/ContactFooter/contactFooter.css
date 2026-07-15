@@ -1,6 +1,7 @@
 .footer-container {
   display: flex;
   flex-direction: column;
+  padding: 0 40px 16px 40px;
 }
 .contacts-container {
   display: grid;
@@ -18,5 +19,14 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 32px;
+}
+
+.footer-container::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: var(--border);
+  width: 85%;
+  margin: auto;
 }

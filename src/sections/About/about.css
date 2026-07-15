@@ -1,0 +1,11 @@
+.about {
+  padding: 0 40px;
+}
+.about::before {
+  content: "";
+  display: block;
+  height: 4px;
+  background: var(--border);
+  width: 85%;
+  margin: auto;
+}

@@ -23,9 +23,9 @@ export default function ContactFooter() {
         </div>
       </div>
       <div className="footer">
-        <span>吉祥如意 · 萬事如意</span>
-        <span>© 2025 Stephanie · All rights reserved</span>
-        <span>✦ Lucky number: 8 ✦</span>
+        <div>吉祥如意 · 萬事如意</div>
+        <div>© 2025 Stephanie · All rights reserved</div>
+        <div>✦ Lucky number: 8 ✦</div>
       </div>
     </div>
   );
