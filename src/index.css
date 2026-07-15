@@ -1,18 +1,18 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+  --text-p: #7b241c; /* default text color */
+  --text-h: #b22222; /* heading text color */
+  --text: #8e1b1b;
+  --bg: #f7f7f7; /* background color */
+  --white: rgb(255, 255, 255);
+  --border: #c50004; /* border color */
+  --accent: #e8b84b;
 
-  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
-  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --shadow:
+    rgba(255, 220, 220, 0.1) 0 10px 15px -3px,
+    rgba(216, 182, 182, 0.05) 0 4px 6px -2px;
+
+  --sans: "Playfair Display", "Segoe UI", system-ui, Roboto, sans-serif;
+  --heading: "Ultra", system-ui, Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -35,4 +35,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.app-container {
+  width: 1200px;
 }

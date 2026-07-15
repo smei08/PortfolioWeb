@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import "./App.css";
+import "./index.css";
 import CalenderHeader from "./sections/CalendarHeader/CalendarHeader";
 import Hero from "./sections/Hero/Hero/Hero";
 

@@ -1,5 +1,4 @@
 .hero-container {
-  border: 1px solid brown;
   height: 500px;
   display: flex;
   padding: 32px;
@@ -10,13 +9,14 @@
   writing-mode: vertical-rl;
   text-align: center;
   letter-spacing: 32px;
+  color: var(--text-h);
 }
 .left {
-  border-right: 0.5px solid brown;
+  border-right: 3px solid var(--border);
   padding-right: 64px;
 }
 .right {
-  border-left: 0.5px solid brown;
+  border-left: 3px solid var(--border);
   padding-left: 64px;
 }
 .center {
@@ -25,9 +25,40 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.intro {
-  padding-top: 150px;
+.a-day {
+  background-color: var(--text-h);
+  color: var(--white);
+  padding: 3px 8px 5px 8px;
+  border-radius: 5px;
+  border: none;
 }
+.intro {
+  padding-top: 135px;
+}
+.intro > h1 {
+  color: var(--text-h);
+  margin-bottom: 0;
+}
+.intro > h1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: var(--border);
+  width: 70%;
+  margin: 18px 0 0 0;
+}
+.intro > p {
+  color: var(--text-p);
+  font-weight: 500;
+  font-size: 1.225rem;
+  font-style: italic;
+  border-left: 3px solid var(--border);
+  padding-left: 12px;
+}
+.intro > h3 {
+  margin: 8px 0 0 0;
+}
+
 .hero-body {
   border: 1px solid red;
 }

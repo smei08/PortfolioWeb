@@ -1,6 +1,7 @@
 .calender-header-container {
   position: relative;
   width: 100%;
+  color: var(--text-h);
 }
 
 .knot-border {
@@ -19,4 +20,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
+}
+.header-content > span {
+  font-weight: 500;
 }

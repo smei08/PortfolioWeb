@@ -13,9 +13,10 @@ export default function Hero() {
       <div className="hero-container">
         <h1 className="left">春夏秋冬</h1>
         <div className="center">
-          <div>吉 · Auspicious Day</div>
+          <div className="a-day">吉 · Auspicious Day</div>
           <div className="intro">
             <h1>Hai, I'm Stephanie</h1>
+            <h3>Front-End Developer & Creative Coder</h3>
             <p>
               Building digital experiences where creatvitiy meets technology.
               Based in Boston — crafting thoughtful interfaces with modern
