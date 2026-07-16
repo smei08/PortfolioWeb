@@ -27,17 +27,20 @@ export default function Hero() {
         </div>
         <h1 className="right">吉福運緣 </h1>
       </div>
-      <HeroHeader />
+
       <div className="hero-body">
         <div className="frame">
           <img src={corner} className="corner tl" alt="" />
           <img src={corner} className="corner tr" alt="" />
           <img src={corner} className="corner bl" alt="" />
           <img src={corner} className="corner br" alt="" />
-
-          <About />
-          <div className="skills-projects">
-            <Skills />
+          <HeroHeader />
+          <div className="divider" />
+          <div className="info-section">
+            <div className="about-skill">
+              <About />
+              <Skills />
+            </div>
             <Projects />
           </div>
           <ContactFooter />

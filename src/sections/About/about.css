@@ -1,11 +1,6 @@
 .about {
   padding: 0 40px;
-}
-.about::before {
-  content: "";
-  display: block;
-  height: 4px;
-  background: var(--border);
-  width: 85%;
-  margin: auto;
+  font-size: 1.225rem;
+  /* font-style: italic; */
+  font-weight: 500;
 }
