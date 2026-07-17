@@ -3,6 +3,7 @@ import React from "react";
 export default function Projects() {
   const style = {
     padding: "0 40px",
+    textAlign: "center",
   };
   return (
     <div style={style}>

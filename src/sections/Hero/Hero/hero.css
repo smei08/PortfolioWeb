@@ -107,7 +107,8 @@
 }
 .info-section {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 .divider {
@@ -115,4 +116,8 @@
   background: var(--border);
   width: 95%;
   margin: 0 auto;
+}
+.project-skill {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }

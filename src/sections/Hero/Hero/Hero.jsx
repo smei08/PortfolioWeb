@@ -37,11 +37,11 @@ export default function Hero() {
           <HeroHeader />
           <div className="divider" />
           <div className="info-section">
-            <div className="about-skill">
-              <About />
+            <About />
+            <div className="project-skill">
               <Skills />
+              <Projects />
             </div>
-            <Projects />
           </div>
           <ContactFooter />
         </div>
