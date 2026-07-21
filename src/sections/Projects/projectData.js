@@ -24,7 +24,7 @@ const projects = [
       "Creative prompt generator for artists and makers — roll a random idea and get started",
     tags: ["creative", "JavaScript"],
     github: "https://github.com/smei08/Nudge",
-    live: "https://weatherappboston.netlify.app/",
+    live: "https://nudgeandcreate.netlify.app/",
   },
   {
     id: 4,

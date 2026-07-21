@@ -9,7 +9,7 @@ export default function HeroHeader() {
         <CalendarDate show="lunar" />
         <CalendarDate show="lunar-day" />
       </div>
-      <img src="../../../flower.png" />
+      <img className="flower" src="../../../flower.png" />
       <CalendarDate show="day" />
     </div>
   );
