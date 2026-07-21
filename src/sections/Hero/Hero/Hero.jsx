@@ -7,6 +7,7 @@ import Skills from "../../Skills/Skills";
 import Projects from "../../Projects/Projects";
 import ContactFooter from "../../ContactFooter/ContactFooter";
 import corner from "../../../assets/corner.svg";
+import DotNav from "../../../components/DotNav/DotNav";
 
 export default function Hero() {
   return (
@@ -36,13 +37,20 @@ export default function Hero() {
           <img src={corner} className="corner br" alt="" />
           <HeroHeader />
           <div className="divider" />
-          <div className="info-section">
-            <About />
-            <div className="project-skill">
-              <Skills />
-              <Projects />
+          <DotNav />
+          {/* <div className="info-section">
+            <div id="about">
+              <About />
             </div>
-          </div>
+            <div className="project-skill">
+              <div id="skills">
+                <Skills />
+              </div>
+              <div id="projects">
+                <Projects />
+              </div>
+            </div>
+          </div> */}
           <ContactFooter />
         </div>
       </div>

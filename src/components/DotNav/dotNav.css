@@ -1,0 +1,39 @@
+.dot-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  padding: 16px;
+}
+.dot {
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid var(--border);
+  cursor: pointer;
+}
+.dot.active {
+  background: var(--accent); /* filled when selected */
+}
+.dot:hover {
+  background: var(--accent);
+}
+.section-display {
+  width: 100%;
+  height: 800px;
+  overflow-y: auto;
+  transition: ease-in-out;
+  animation: fadeIn 0.4s ease;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
