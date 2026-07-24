@@ -20,7 +20,7 @@ export default function Hero() {
             <h1>Hai, I'm Stephanie</h1>
             <h3>Front-End Developer & Creative Coder</h3>
             <p>
-              Building digital experiences where creatvitiy meets technology.
+              Building digital experiences where creativitiy meets technology.
               Based in Boston — crafting thoughtful interfaces with modern
               tools.
             </p>
